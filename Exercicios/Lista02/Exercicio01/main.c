@@ -24,7 +24,7 @@ void opcao1(Aviao *aviao, Passageiro *passageiros) {
     printf("%d",aviaoDisponivel);
 
     if (aviaoDisponivel == -1) {
-        printf("Não há nenhum avião disponível!\n");
+        printf("Não há nenhum avião disponivel!\n");
     } else {
         printf("Nome: ");
         scanf("%s",passageiroTemporario.nome);
