@@ -29,3 +29,32 @@ int main() {
                 printf("Item inserido com sucesso!\n");
             }
         }
+        if(op == 3){
+            int posi;
+            printf("Digite a posicao do indice que deseja remover:");
+            scanf("%d",&posi);
+            controle = retiraLista(&novaLista,posi,&itemretirada);
+            if(controle == 0){
+                printf("Erro!\n");
+            } else{
+                printf("Item removido com sucesso!\n");
+                printf("-> %d\n",itemretirada.chave);
+            }
+        }
+        if(op == 4){
+            controle = listaEhVazia(&novaLista);
+            if(controle == 1){
+                printf("Lista está vazia!\n");
+            }else{
+                printf("A lista não está vazia.\n");
+            }
+        }
+        if(op == 5){
+            imprimeLista(&novaLista);
+        }
+        if(op == 6 ){
+            break;
+        }
+    }
+           return 0;
+}
