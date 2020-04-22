@@ -10,4 +10,4 @@ possíveis saídas, o que é chamado de força bruta.
 - <b>Algoritmos de ordenação</b>: O trabalho visa a implementação de algoritmos de ordenação em um tipo abstrato de dados Biblioteca em que as ordenações devem ser implementadas tanto para arranjo quanto para lista encadeada.
 
 ### Bibliografia
-N. Ziviani, Projeto de Algoritmos com Implementações em Pascal e C, 3a ed., Cengage Learning, 201
+N. Ziviani, Projeto de Algoritmos com Implementações em Pascal e C, 3a ed., Cengage Learning, 2010
